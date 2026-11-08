@@ -29,7 +29,7 @@ if (contactForm) {
     const name = String(formData.get('name') || '').trim();
     const email = String(formData.get('email') || '').trim();
     const message = String(formData.get('message') || '').trim();
-    const recipient = 'info@zakwelawfirm.co.za';
+    const recipient = 'cebisalaw@zakweattorneys.co.za';
     const subject = encodeURIComponent(`Website enquiry from ${name}`);
     const body = encodeURIComponent(`${message}\n\nFrom: ${name}\nEmail: ${email}`);
     window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
