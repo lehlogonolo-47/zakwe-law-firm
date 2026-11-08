@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Contact Zakwe Attorneys for legal advice and a consultation." />
+    <title>Contact | Zakwe Attorneys</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="wordmark" href="index.html" aria-label="Zakwe Attorneys home">
+          <span class="wordmark-name">Zakwe</span>
+          <span class="wordmark-sub">Attorneys</span>
+        </a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+          <span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+          <a class="nav-contact" href="contact.html">Get in touch <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero container">
+        <p class="kicker"><span class="kicker-line"></span> Contact</p>
+        <h1>Tell us what is happening.</h1>
+      </section>
+
+      <section class="section">
+        <div class="container contact-page-grid">
+          <div class="contact-page-copy">
+            <p>We are happy to hear about your matter and discuss whether we can assist. Please give a brief description of your situation and we will be in touch.</p>
+            <ul>
+              <li>Johannesburg, South Africa</li>
+              <li>info@zakweattorneys.co.za</li>
+              <li>+27 11 000 0000</li>
+            </ul>
+          </div>
+
+          <form class="contact-form page-contact-form" id="contact-form">
+            <label for="name">Your name</label>
+            <input id="name" name="name" autocomplete="name" required />
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+            <label for="message">A brief description of your enquiry</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Prepare email <span aria-hidden="true">→</span></button>
+            <p class="form-note" id="form-note" aria-live="polite">This form opens your email app; it does not send or store your details on this website.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="wordmark footer-wordmark" href="index.html"><span class="wordmark-name">Zakwe</span><span class="wordmark-sub">Attorneys</span></a>
+        <p>Legal advice, clearly explained.</p>
+        <span>© <span id="year">2026</span> Zakwe Attorneys</span>
+      </div>
+    </footer>
+  </body>
+</html>
