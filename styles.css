@@ -92,6 +92,10 @@ h1 em { color: var(--accent); font-weight: 500; }
 .service-page-item span { color: var(--accent); font-size: 11px; letter-spacing: .08em; }
 .service-page-item p { max-width: 620px; margin: 0; color: var(--muted); font-size: 14px; }
 .contact-page-copy ul { margin: 22px 0 0; padding-left: 18px; color: var(--muted); }
+.contact-address, .contact-hours { margin-top: 1.5rem; color: var(--ink); }
+.contact-address h2 { margin-bottom: 0.5rem; font-size: 1.1rem; }
+.contact-address address { font-style: normal; line-height: 1.7; }
+.contact-hours { font-size: 0.96rem; }
 .page-contact-form { padding: 0; border: 0; background: transparent; }
 
 .site-footer { border-top: 1px solid var(--line); }
@@ -100,6 +104,7 @@ h1 em { color: var(--accent); font-weight: 500; }
 .footer-brand { align-items: flex-start; }
 .footer-tagline { margin-top: 4px; }
 .footer-title { font-size: 23px; }
+.footer-hours { color: var(--muted); font-size: 11px; line-height: 1.6; }
 
 @media (max-width: 760px) {
   .container { width: min(100% - 36px, 600px); }
